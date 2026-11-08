@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="280" viewBox="0 0 520 280" role="img" aria-labelledby="tbarondark dbarondark">
+  <title id="tbarondark">BARON</title>
+  <desc id="dbarondark">Öğretmen, sınıf ve ders dağıtımlarından çakışmasız haftalık program üretir. Bulut senkronu ve Windows sürümü.</desc>
+  <defs>
+    <linearGradient id="accentbarondark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8530a"/><stop offset=".5" stop-color="#ff7a2a"/><stop offset="1" stop-color="#ffb26b"/>
+    </linearGradient>
+    <linearGradient id="iconbarondark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6a1a"/><stop offset="1" stop-color="#ffb26b"/>
+    </linearGradient>
+    <clipPath id="clipbarondark"><rect x="1" y="1" width="518" height="278" rx="20"/></clipPath>
+    <radialGradient id="glowbarondark" cx="100%" cy="0%" r="75%">
+      <stop offset="0" stop-color="#ff7a2a" stop-opacity=".20"/><stop offset="1" stop-color="#ff7a2a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#clipbarondark)">
+    <rect width="520" height="280" fill="#0f0f0f"/>
+    <rect width="520" height="280" fill="url(#glowbarondark)"/>
+    <rect y="0" width="520" height="3" fill="url(#accentbarondark)"/>
+  </g>
+  <rect x="1" y="1" width="518" height="278" rx="20" fill="none" stroke="#262626" stroke-width="1.5"/>
+
+  <rect x="28" y="28" width="52" height="52" rx="14" fill="url(#iconbarondark)"/>
+  <g transform="translate(42 42)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="M7.5 14h2M11 14h2M14.5 14h2M7.5 17h2M11 17h2"/></g>
+
+  <text x="96" y="52" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="700" fill="#fafafa">BARON</text>
+  <text x="96" y="75" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#a3a3a3">Ders programı · Web + Windows</text>
+
+  <rect x="395.2" y="34" width="96.8" height="28" rx="14" fill="#1f130a" stroke="#3d2412"/>
+  
+  <text x="409.2" y="52.5" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="12" font-weight="700" letter-spacing="1.4" fill="#ffb26b">MASAÜSTÜ</text>
+
+  <text x="28" y="130" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#d4d4d4">Öğretmen, sınıf ve ders dağıtımlarından</text><text x="28" y="157" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#d4d4d4">çakışmasız haftalık program üretir. Bulut</text><text x="28" y="184" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#d4d4d4">senkronu ve Windows sürümü.</text>
+  <rect x="28.0" y="220" width="86.8" height="32" rx="9" fill="#171717" stroke="#2e2e2e"/><text x="39.0" y="241" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#ffb26b">Firebase</text><rect x="122.8" y="220" width="86.8" height="32" rx="9" fill="#171717" stroke="#2e2e2e"/><text x="133.8" y="241" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#ffb26b">Tauri v2</text><rect x="217.6" y="220" width="135.4" height="32" rx="9" fill="#171717" stroke="#2e2e2e"/><text x="228.6" y="241" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#ffb26b">GitHub Actions</text>
+
+  <g transform="translate(470 225)" fill="none" stroke="#a3a3a3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 19L19 3M8 3h11v11"/>
+  </g>
+</svg>

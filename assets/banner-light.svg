@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+  <title id="title">Ferhat Hacıosmanoğlu</title>
+  <desc id="desc">Mekatronik Mühendisi · PWA ve İş Uygulamaları Geliştirici</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8530a"/><stop offset=".5" stop-color="#ff7a2a"/><stop offset="1" stop-color="#ffb26b"/>
+    </linearGradient>
+    <linearGradient id="icon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6a1a"/><stop offset="1" stop-color="#ffb26b"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1280" height="400" rx="24"/></clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#000000" stroke-opacity=".05"/>
+    </pattern>
+    <radialGradient id="fade" cx="72%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask"><rect width="1280" height="400" fill="url(#fade)"/></mask>
+    <radialGradient id="orbA">
+      <stop offset="0" stop-color="#ff7a2a" stop-opacity=".30"/><stop offset="1" stop-color="#ff7a2a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbB">
+      <stop offset="0" stop-color="#ffb26b" stop-opacity=".16"/><stop offset="1" stop-color="#ffb26b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#111111"/><stop offset=".55" stop-color="#111111"/><stop offset="1" stop-color="#c2410c"/>
+    </linearGradient>
+    <clipPath id="typing">
+      <rect x="46" y="8" width="0" height="32">
+        <animate attributeName="width" values="0.0;11.4;22.8;34.2;45.6;57.0;68.4;79.8;91.2;102.6;114.0;125.4;136.8;148.2;159.6;171.0;182.4;193.8;205.2;216.6;228.0;239.4;250.8;262.2;273.6;285.0;296.4;307.8;319.2;330.6;342.0;353.4;364.8;376.2;387.6;399.0;410.4;421.8;433.2;444.6;456.0;467.4;478.8;490.2;501.6;513.0;524.4;535.8" keyTimes="0.0;0.0213;0.0426;0.0638;0.0851;0.1064;0.1277;0.1489;0.1702;0.1915;0.2128;0.234;0.2553;0.2766;0.2979;0.3191;0.3404;0.3617;0.383;0.4043;0.4255;0.4468;0.4681;0.4894;0.5106;0.5319;0.5532;0.5745;0.5957;0.617;0.6383;0.6596;0.6809;0.7021;0.7234;0.7447;0.766;0.7872;0.8085;0.8298;0.8511;0.8723;0.8936;0.9149;0.9362;0.9574;0.9787;1.0" dur="3.2s" begin="0.6s" calcMode="discrete" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="400" fill="#fafaf9"/>
+    <rect width="1280" height="400" fill="url(#grid)" mask="url(#gridMask)"/>
+
+    <circle cx="1090" cy="40" r="330" fill="url(#orbA)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -36 24; 0 0" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="430" r="280" fill="url(#orbB)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 40 -18; 0 0" dur="18s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- monogram halkası -->
+    <g transform="translate(1078 200)">
+      <circle r="142" fill="none" stroke="#ff7a2a" stroke-opacity=".28" stroke-dasharray="2 10">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="60s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="118" fill="none" stroke="#e7e5e4" stroke-width="2"/>
+      <circle r="118" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="190 552">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="98" fill="#ffffff" stroke="#e7e5e4"/>
+      <text y="23" text-anchor="middle" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="url(#name)">FH</text>
+    </g>
+
+    <text x="80" y="116" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="17" letter-spacing="3" fill="#ff8a3d">// MERHABA, BEN</text>
+    <text x="76" y="192" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-1.5" fill="url(#name)">Ferhat Hacıosmanoğlu</text>
+    <text x="80" y="240" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#57534e">Mekatronik Mühendisi  ·  PWA &amp; İş Uygulamaları Geliştirici</text>
+
+    <g transform="translate(80 284)">
+      <rect width="615" height="48" rx="12" fill="#ffffff" stroke="#e7e5e4"/>
+      <text x="20" y="31" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="19" font-weight="700" fill="#ff7a2a">$</text>
+      <g clip-path="url(#typing)">
+        <text x="46" y="31" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="19" fill="#0a0a0a">sahadaki sorunu → çevrimdışı çalışan uygulamaya</text>
+      </g>
+      <rect x="48" y="14" width="10" height="21" rx="2" fill="#ff7a2a">
+        <animate attributeName="x" values="48.0;59.4;70.8;82.2;93.6;105.0;116.4;127.8;139.2;150.6;162.0;173.4;184.8;196.2;207.6;219.0;230.4;241.8;253.2;264.6;276.0;287.4;298.8;310.2;321.6;333.0;344.4;355.8;367.2;378.6;390.0;401.4;412.8;424.2;435.6;447.0;458.4;469.8;481.2;492.6;504.0;515.4;526.8;538.2;549.6;561.0;572.4;583.8" keyTimes="0.0;0.0213;0.0426;0.0638;0.0851;0.1064;0.1277;0.1489;0.1702;0.1915;0.2128;0.234;0.2553;0.2766;0.2979;0.3191;0.3404;0.3617;0.383;0.4043;0.4255;0.4468;0.4681;0.4894;0.5106;0.5319;0.5532;0.5745;0.5957;0.617;0.6383;0.6596;0.6809;0.7021;0.7234;0.7447;0.766;0.7872;0.8085;0.8298;0.8511;0.8723;0.8936;0.9149;0.9362;0.9574;0.9787;1.0" dur="3.2s" begin="0.6s" calcMode="discrete" fill="freeze"/>
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <rect y="396" width="1280" height="4" fill="url(#accent)"/>
+  </g>
+</svg>

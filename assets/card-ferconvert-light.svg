@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="280" viewBox="0 0 520 280" role="img" aria-labelledby="tferconvertlight dferconvertlight">
+  <title id="tferconvertlight">FERCONVERT</title>
+  <desc id="dferconvertlight">PDF birleştirme ve düzenleme, QR, görsel ve veri araçları tamamen tarayıcıda; dosyalar sunucuya yüklenmez.</desc>
+  <defs>
+    <linearGradient id="accentferconvertlight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8530a"/><stop offset=".5" stop-color="#ff7a2a"/><stop offset="1" stop-color="#ffb26b"/>
+    </linearGradient>
+    <linearGradient id="iconferconvertlight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6a1a"/><stop offset="1" stop-color="#ffb26b"/>
+    </linearGradient>
+    <clipPath id="clipferconvertlight"><rect x="1" y="1" width="518" height="278" rx="20"/></clipPath>
+    <radialGradient id="glowferconvertlight" cx="100%" cy="0%" r="75%">
+      <stop offset="0" stop-color="#ff7a2a" stop-opacity=".12"/><stop offset="1" stop-color="#ff7a2a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#clipferconvertlight)">
+    <rect width="520" height="280" fill="#ffffff"/>
+    <rect width="520" height="280" fill="url(#glowferconvertlight)"/>
+    <rect y="0" width="520" height="3" fill="url(#accentferconvertlight)"/>
+  </g>
+  <rect x="1" y="1" width="518" height="278" rx="20" fill="none" stroke="#e7e5e4" stroke-width="1.5"/>
+
+  <rect x="28" y="28" width="52" height="52" rx="14" fill="url(#iconferconvertlight)"/>
+  <g transform="translate(42 42)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7.5A2.5 2.5 0 0 0 5 5.5v13A2.5 2.5 0 0 0 7.5 21h9a2.5 2.5 0 0 0 2.5-2.5V8z"/><path d="M14 3v5h5"/><path d="M8.5 13h7M8.5 16.5h4.5"/></g>
+
+  <text x="96" y="52" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="700" fill="#0a0a0a">FERCONVERT</text>
+  <text x="96" y="75" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#57534e">Gizlilik odaklı belge çalışma alanı</text>
+
+  <rect x="407.0" y="34" width="85.0" height="28" rx="14" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <circle cx="423.0" cy="48" r="4" fill="#15803d"><animate attributeName="opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="435.0" y="52.5" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="12" font-weight="700" letter-spacing="1.4" fill="#15803d">CANLI</text>
+
+  <text x="28" y="130" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#404040">PDF birleştirme ve düzenleme, QR, görsel ve</text><text x="28" y="157" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#404040">veri araçları tamamen tarayıcıda; dosyalar</text><text x="28" y="184" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#404040">sunucuya yüklenmez.</text>
+  <rect x="28.0" y="220" width="103.0" height="32" rx="9" fill="#fff7ed" stroke="#fed7aa"/><text x="39.0" y="241" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#c2410c">JavaScript</text><rect x="139.0" y="220" width="78.7" height="32" rx="9" fill="#fff7ed" stroke="#fed7aa"/><text x="150.0" y="241" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#c2410c">pdf-lib</text><rect x="225.7" y="220" width="70.6" height="32" rx="9" fill="#fff7ed" stroke="#fed7aa"/><text x="236.7" y="241" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#c2410c">PDF.js</text><rect x="304.3" y="220" width="46.3" height="32" rx="9" fill="#fff7ed" stroke="#fed7aa"/><text x="315.3" y="241" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#c2410c">PWA</text>
+
+  <g transform="translate(470 225)" fill="none" stroke="#57534e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 19L19 3M8 3h11v11"/>
+  </g>
+</svg>
